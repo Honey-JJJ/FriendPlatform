@@ -1,0 +1,101 @@
+/* 右侧专题 */
+.topic-menu {
+    position: fixed;
+    right: 20px;
+    top: 120px;
+    width: 160px;
+}
+
+/* 专题菜单项 */
+.tablerow1 {
+    padding: 10px;
+    line-height: 15px;
+    background-color: rgba(31, 30, 30, 0.6);
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.topic-menu a {
+    text-decoration: none;
+    color: #fad3e0;
+    font-weight: 500;
+}
+
+.tablerow1:hover {
+    background-color: #6a6969;
+    transform: scale(1.02);
+}
+
+.contain {
+    text-align: center;
+}
+
+.centertext {
+    display: inline-block;
+    width: 500px;
+}
+
+/* 专题学习+得分页面*/
+table {
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.85); 
+    border-radius: 16px;
+    overflow: hidden; 
+    font-size: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+table th {
+    background-color: #FCE4EC; /* 粉色表头 */
+    text-align: center;
+    color: #403f3f;
+    font-weight: bold;
+}
+table td {
+    border: 1px solid #eee;
+    padding: 12px 15px;
+}
+
+table th {
+    background-color: rgba(255, 255, 255, 0.85); 
+    text-align: center;
+    color: #403f3f;
+    font-weight: bold;
+
+}
+
+table tr {
+    height: 30px;
+}
+
+/* 心动瞬间*/
+.diary-container {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.diary-header {
+    text-align: center;
+    color: #e88cba;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.diary-item {
+    border-bottom: 1px solid #eee;
+    padding: 18px 10px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.diary-item:last-child {
+    border-bottom: none;
+}

@@ -1,0 +1,50 @@
+body {
+	background-image: url('../images/c.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	background-attachment: scroll;
+}
+
+.bar {
+    position: fixed;
+    left: 15px;
+    top: 100px;
+    width: 170px;
+    text-align: center;
+    background-color: #fce4ec;
+    border-radius: 18px;
+    padding: 8px 10px;
+    margin: 0;
+    z-index: 99;
+}
+
+/* 干掉列表默认边距，确保居中 */
+.bar ul {
+    padding: 0;
+    margin: 0;
+}
+
+.bar li {
+	display: inline;
+	border-right: 1px solid #000;
+	padding: 0 7px;
+}
+
+.bar li:last-child {
+    border-right: none;
+}
+
+/* 文字加粗、变大、变柔和灰色 */
+.bar a {
+	color: #555; /* 柔和深灰，比纯黑更温柔 */
+	text-decoration: none;
+	font-weight: bold; /* 加粗 */
+	font-size: 14px; /* 比默认大两号，更醒目 */
+}
+
+.bar a:hover {
+	color: #f8cd04;
+	text-decoration: underline;
+}
